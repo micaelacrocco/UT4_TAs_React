@@ -1,0 +1,63 @@
+.Counter {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f7f7fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+button:focus {
+    outline: none;
+}
+
+button:nth-child(2) {
+    background-color: #FFC107;
+}
+
+button:nth-child(2):hover {
+    background-color: #e0a800;
+}
+
+button:nth-child(3) {
+    background-color: #DC3545;
+}
+
+button:nth-child(3):hover {
+    background-color: #c82333;
+}
